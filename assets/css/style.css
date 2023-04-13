@@ -2,11 +2,14 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color:#cfb1c6b7;
 }
 
 .header {
-    position:fixed;
     right:0px;
     left: 0px;
     padding: 10px;
@@ -26,7 +29,7 @@
 }
 
 .header div {
-    padding-top:20px;
+    padding-top:10px;
     margin-right:5px;
     float:right;
     font-size:25px;
@@ -43,15 +46,40 @@ a {
     text-decoration: none;
 }
 
-.cardi {
-    height:900px;
-    width:100%;
-    padding-top:100px;
-    background-image: url("../images/background-snake.jpg");
-    background-size:cover;
-    background-position:center;
-}
 
 .aboutcon {
-    float:left;
+    margin: 2.5rem 7rem 2rem 7rem;
+    border: 4.5px solid #80016b;
+    background-color:#a5a5a553;
+}
+
+.aboutcon h2 {
+    margin: 0.5rem 1rem 0.5rem;
+    font-style:italic;
+    color:#80016b;
+}
+
+.aboutcon p {
+    margin: 1rem 1.75rem 1rem;
+    font-style:bold;
+    font-size:larger;
+    color:#35002c;
+}
+
+.wokmg {
+    margin: 2rem 47.09rem 2rem 7rem;
+    border: 4.5px solid #80016b;
+}
+.wokmg img {
+    width:645.5px;
+    height:451px;
+    resize:both;
+    overflow:hidden;
+}
+.wokmg #mwork {
+    top:70px;
+    left:10px;
+    font-weight: normal;
+    text-align:left;
+    font-size:larger;
 }
