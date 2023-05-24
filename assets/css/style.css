@@ -5,3 +5,8 @@
 .h1b {
     font-family: 'Alkatra', cursive;
 }
+
+#profpic2 {
+    float: right;
+    margin-right: 2.50rem;
+}
